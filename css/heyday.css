@@ -1,0 +1,146 @@
+
+@media only screen { /* Background color */
+html, body {
+height: 100%;
+background: #abaaaa;
+}
+}
+
+
+
+.georgia {font-family: Georgia, 'Times New Roman', Times, serif;}
+.helvetica {font-family: Helvetica, Arial, sans-serif;}
+.courier {font-family: 'Courier New', Courier, monospace;}
+.maison {font-family: Helvetica, Arial, sans-serif;f;}
+
+/* Text Colors */
+.white {color: #ffffff;}
+.dark {color: #333F48;}
+.cream {color: #F8F4F0;}
+.rose {color: #DC7D7C;}
+.almond {color: #C6A992;}
+
+/* BG Colors */
+.white-bg {background-color: #ffffff;background: #ffffff;}
+.dark-bg {background-color: #333F48;background: #333F48;}
+.cream-bg {background-color: #F8F4F0;background: #F8F4F0;}
+.rose-bg {background-color: #DC7D7C;background: #DC7D7C;}
+.almond-bg {background-color: #C6A992;background: #C6A992;}
+
+
+
+/* Fonts */
+.heroText {font-size: 56px;line-height:74px;} 
+
+.f10 {font-size: 10px;}
+.f12 {font-size: 12px;}
+.f14 {font-size: 14px;}
+.f16 {font-size: 16px;}
+.f18 {font-size: 18px;}
+.f20 {font-size: 20px;}
+.f24 {font-size: 24px;}
+.f30 {font-size: 30px;}
+.f32 {font-size: 32px;}
+.f35 {font-size: 35px;}
+.f40 {font-size: 40px;}
+.f48 {font-size: 48px;}
+.f50 {font-size: 50px;}
+.f56 {font-size: 56px;}
+
+.h20 {line-height: 20px;}
+.h22 {line-height: 22px;}
+.h24 {line-height: 24px;}
+.h26 {line-height: 26px;}
+.h34 {line-height: 34px;}
+.h40 {line-height: 40px;}
+.h45 {line-height: 45px;}
+.h55 {line-height: 55px;}
+.h64 {line-height: 64px;}
+
+.tag {
+background-color:#C0E6FF;
+border: 8px solid #C0E6FF;
+color:#333F48; 
+display: inline-block;  
+margin: 2px 1px 4px 0;
+border-radius: 16px;
+font-family: 'Objektiv', 'DMSans', Arial, sans-serif; 
+font-size: 16px; 
+line-height: 16px; 
+text-decoration: none; 
+white-space: nowrap;
+padding-left: 5px;
+padding-right: 5px;
+}
+.contentBorder {border-right: 5px solid #044BBC;}
+/* Padding */
+.container {padding: 15px;}
+.heroPad {padding-top: 60px;}
+.containerIndent {padding: 15px 25px 0px 25px;}
+.bulletPadding {padding-bottom: 13px;}
+                
+/* Tablet  */
+@media only screen and (max-width: 800px) {
+.heroContainer{padding: 35px !important;}
+.heroPad {padding-top: 40px !important;}
+.heroText {font-size: 46px !important;line-height:64px !important;}
+.col3-pad {padding: 20px 30px !important;}
+.col3-container {width:100% !important;display:block !important; max-width: 230px !important;Margin: auto !important;padding: 3px 0 !important;}
+
+/* Padding */
+.container{padding: 25px !important;}
+.m-padL {padding-left: 15px !important;}
+.m-padR {padding-right: 15px !important;}
+.m-pad40x25 {padding: 40px 25px !important;}
+.bgpad {padding: 10px !important;}
+
+/* Text Alignment */
+.mLeft {text-align: left !important;}
+.mCenter {text-align: center !important;}
+.mRight {text-align: right !important;}
+
+.contentBorder {
+border-right: 0px solid #ffffff !important;
+border-bottom: 5px solid #044BBC !important;
+}
+}
+
+/* Mobile  */
+@media only screen and (max-width: 600px) { 
+/* Hero */
+.logoImg {max-width: 85px !important;}
+.heroContainer{padding: 25px !important;}
+.heroPad {padding-top: 30px !important;}
+.heroText {font-size: 26px !important;line-height:38px !important;}
+
+/* Fonts */
+.m-f10 {font-size: 10px !important;}
+.m-f12 {font-size: 12px !important;}
+.m-f14 {font-size: 14px !important;}
+.m-f16 {font-size: 16px !important;}
+.m-f18 {font-size: 18px !important;}
+.m-f20 {font-size: 20px !important;}
+.m-f24 {font-size: 24px !important;}
+.m-f25 {font-size: 25px !important;}
+.m-f30 {font-size: 30px !important;}
+.m-f40 {font-size: 40px !important;}
+.m-f50 {font-size: 50px !important;}
+.m-f56 {font-size: 56px !important;}
+
+.m-h16 {line-height: 16px !important;}
+.m-h18 {line-height: 18px !important;}
+.m-h20 {line-height: 20px !important;}
+.m-h22 {line-height: 22px !important;}
+.m-h24 {line-height: 24px !important;}
+.m-h26 {line-height: 26px !important;}
+.m-h34 {line-height: 34px !important;}
+.m-h36 {line-height: 36px !important;}
+.m-h40 {line-height: 40px !important;}
+.m-h45 {line-height: 45px !important;}
+.m-h50 {line-height: 50px !important;}
+.m-h55 {line-height: 55px !important;}
+.m-h64 {line-height: 64px !important;}
+
+.price {font-size: 25px !important;line-height: 36px !important;}
+.month {font-size: 14px !important;}
+}

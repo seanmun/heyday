@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>heycar</title>
+      <link rel="stylesheet" href="./css/style.css" type="text/css" media="all" />
+      <link rel="stylesheet" href="./css/vanilla.css" type="text/css" media="all" />
+      <link rel="stylesheet" href="./css/heycar.css" type="text/css" media="all" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <style>
+         body, html {
+         /* Fallback (could use .jpg/.png alternatively) */
+         background-color: #044BBC;
+         /* SVG fallback for IE 9 (could be data URI, or could use filter) */
+         background-image: url(fallback-gradient.svg); 
+         /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+         background-image:
+         -webkit-gradient(linear, left top, right top, from(#044BBC), to(#01BEA5));
+         /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+         background-image:
+         -webkit-linear-gradient(left, #044BBC, #01BEA5);
+         /* Firefox 3.6 - 15 */
+         background-image:
+         -moz-linear-gradient(left, #044BBC, #01BEA5);
+         /* Opera 11.1 - 12 */
+         background-image:
+         -o-linear-gradient(left, #044BBC, #01BEA5);
+         /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+         background-image:
+         linear-gradient(to right, #044BBC, #01BEA5);
+         }
+         .col > .card {
+             border-radius: 25px;
+         }
+        .card:hover {
+            box-shadow: 5px 5px 15px;
+        }
+         .card-body {
+            background-color: #333333;color: #ffffff;border-radius:  0 0 25px 25px; 
+         }
+         .kinetic {
+            background-color: #FF7F66;color: #ffffff;border-radius:  0 0 25px 25px; 
+         }
+         iframe {
+            border-radius: 25px 25px 0px 0px;
+            height: 568px;;
+         }
+         .btn-primary {
+            background-color: #01BEA5;
+            border: 1px solid #01BEA5;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container white"  >
+         <div class="row">
+            <div class="col" >
+               <h1 class="objektivXbold bold center f50"><img src="images/01/heycarLogo.png" width="112"></h1>
+               <p class="objektivXbold f18 h24 bold">Project assets:
+               <ul>
+                  <li>10 HTML assets</li>
+                  <li>CSS files</li>
+                  <ul>
+                     <li>heycar styles</li>
+                     <ul>
+                        <li>Colors, fonts, sizing and padding elements from style guide</li>
+                     </ul>
+                     <li>reset</li>
+                     <ul>
+                        <li>Commmon bug fixes for various email clients such as Outlook, Gmail and Android devices</li>
+                     </ul>
+                  </ul>
+                  <li>Snippets:</li>
+                  <ul>
+                     <li> Hero container 1</li>
+                     <li> Hero container 2 w/background image</li>
+                     <li>Footer white icons</li>
+                     <li>Footer blue icons</li>
+                     <li> Content module: blog-like card</li>
+                     <li> Comparison Car Card</li>
+                     <li> Multicar Card</li>
+                     <li> Done deal CTA</li>
+                     <li>Checklist item</li>
+                  </ul>
+               </ul>
+               </p>
+               <p class="objektivXbold f18 h24 bold">Templates: (preview @ iPhone 6 size (320 x 568)</p>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col d-flex justify-content-center" >
+               <div class="card" style="width: 320px;">
+                  <iframe src="./01_singleVehicle.html" frameborder="0" style="border:none;"></iframe>
+                  <div class="card-body">
+                     <h5 class="card-title">01 Single Vehicle</h5>
+                     <p class="card-text">Single Vehicle infomration.</p>
+                     <a href="./01_singleVehicle.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+               <div class="card" style="width: 320px;">
+                  <iframe src="./02_survey.html" frameborder="0" style="border:none;"></iframe>
+                  <div class="card-body">
+                     <h5 class="card-title">02 Survey</h5>
+                     <p class="card-text">Simple email that links to survey from Typeform. </p>
+                     <a href="./02_survey.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+               <div class="card" style="width: 320px;">
+                  <iframe src="./03_multiCar.html" frameborder="0" style="border:none;"></iframe>
+                  <div class="card-body">
+                     <h5 class="card-title">03 Multi Vehicle</h5>
+                     <p class="card-text">Multi Vehicle display of cars the user may be interested in. The car images are background images to adjust for potential variance of image dimentions. Included VML code to ensure backgrounds show on Outlook. </p>
+                     <a href="./03_multiCar.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+ 
+      <div class="container">
+         <div class="row">
+            <div class="col d-flex justify-content-center">
+               <div class="card" style="width: 320px;">
+                  <iframe src="./04_review.html" frameborder="0" style="border:none;"></iframe>
+                  <div class="card-body">
+                     <h5 class="card-title">04 Review</h5>
+                     <p class="card-text">Email showing exclusive offer for a particular car. The background image in the Hero will be dymamic. Note: background images are not supported on Outlook on Windows</p>
+                     <a href="./04_review.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+               <div class="card" style="width: 320px;">
+                  <iframe src="./05_finance.html" frameborder="0" style="border:none;"></iframe>
+                  <div class="card-body">
+                     <h5 class="card-title">05 Finance</h5>
+                     <p class="card-text">Dynamic email using "Exprerian" score that will dynamically pull in for each users on scall of 1-10. Note: the dynamic image includes the Experian logo. </p>
+                     <a href="./05_finance.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+               <div class="card" style="width: 320px;">
+                  <iframe src="./06_tradingOffer.html" frameborder="0" style="border:none;"></iframe>
+                  <div class="card-body">
+                     <h5 class="card-title">06 Trading offer</h5>
+                     <p class="card-text">Email showing exclusive offer for a particular car. The background image in the Hero will be dymamic. Note: background images are not supported on Outlook on Windows. </p>
+                     <a href="./06_tradingOffer.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+
+            <div class="col d-flex justify-content-center">
+               <div class="card" style="width: 320px;">
+                  <iframe src="./07_trading.html" frameborder="0" style="border:none;"></iframe>
+                  <div class="card-body">
+                     <h5 class="card-title">07 Trading</h5>
+                     <p class="card-text">Dynamic email using "Exprerian" score that will dynamically pull in for each users on scall of 1-10. Note: the dynamic image includes the Experian logo. </p>
+                     <a href="./07_trading.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+               <div class="card" style="width: 320px;">
+                  <iframe src="./08_comparison.html" frameborder="0" style="border:none;"></iframe>
+                  <div class="card-body">
+                     <h5 class="card-title">08 Comparison</h5>
+                     <p class="card-text">Dynamically generated email based on user "favourites". This email will display information of their top 3 cars. The images are using background images, with the star overlapping uzing positioning and z-index. This method is not fully supported. When not supported the star will be displayed in the lower right corner, instead of overlapping. Included VML code to ensure backgrounds show on Outlook.</p>
+                     <a href="./08_comparison.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                  </div>
+               </div>
+            </div>
+               <div class="col d-flex justify-content-center">
+                  <div class="card" style="width: 320px;">
+                     <iframe src="./09_Content.html" frameborder="0" style="border:none;"></iframe>
+                     <div class="card-body">
+                        <h5 class="card-title">09 Content</h5>
+                        <p class="card-text">Blog articles that can be dynamically added to the email. Created a snipped for the "Content" module that includes multiple fields for article details. Each module will use the same styles. </p>
+                        <a href="./09_Content.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                     </div>
+                  </div>
+               </div>
+
+         </div>
+      </div>
+
+      <div class="container">
+         <div class="row">
+
+            <div class="col d-flex justify-content-center">
+               <div class="card" style="width: 320px;">
+                  <iframe src="./10_Video.html" frameborder="0" style="border:none;"></iframe>
+                  <div class="card-body">
+                     <h5 class="card-title">10 Video</h5>
+                     <p class="card-text">Primary content is the video that links to webpage. All content related to car will be dynamic. Data will be prulled through using handlebars.</p>
+                     <a href="./10_Video.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+               <div class="card" style="width: 320px;">
+                  <iframe src="./Alt_survey.html" frameborder="0" style="border:none;"></iframe>
+                  <div class="card-body kinetic">
+                     <h5 class="card-title">ALT Survey</h5>
+                     <p class="card-text">Kinetic email example</p>
+                     <a href="./Alt_survey.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            
+
+         </div>
+      </div>
+
+      <div class="container">
+          <div class="row">
+              &nbsp;<br>
+              &nbsp;<br>
+              &nbsp;<br>
+              &nbsp;<br>
+              &nbsp;<br>
+              &nbsp;<br>
+          </div>
+      </div>
+   </body>
+</html>

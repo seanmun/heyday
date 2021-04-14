@@ -1,0 +1,62 @@
+{
+    eventName:"Cart Viewed"
+    email:"courtneymichelle91@gmail.com"
+    Cart Viewed:{
+    email:"courtneymichelle91@gmail.com"
+    label:""
+    nonInteraction:1
+    products:[
+    0:{
+    tag:"Highlight: Bestseller"
+    price:42
+    label:"Botanical B Enzyme Cleansing Oil - 4 oz"
+    nonInteraction:0
+    brand:"One Love Organics"
+    is_logged_in:false
+    product_id:"37455272771774"
+    variant_title:"4 oz"
+    name:"Botanical B Enzyme Cleansing Oil - 4 oz"
+    sku:"OLO-CLS-01"
+    currency:"USD"
+    category:"Cleansers"
+    }
+    1:{
+    tag:"Highlight: Bestseller"
+    price:18
+    label:"Mighty Patch Invisible+ - 39 count"
+    nonInteraction:0
+    brand:"Hero Cosmetics"
+    is_logged_in:false
+    product_id:"32722379079768"
+    variant_title:"39 count"
+    name:"Mighty Patch Invisible+ - 39 count"
+    sku:"HRO-SPT-01"
+    currency:"USD"
+    category:"Spot Treatments"
+    }
+    2:{
+    tag:"Highlight: Bestseller"
+    price:12
+    label:"Micropoint For Blemishes - 6 count"
+    nonInteraction:0
+    brand:"Hero Cosmetics"
+    is_logged_in:false
+    product_id:"33148823535704"
+    variant_title:"6 count"
+    name:"Micropoint For Blemishes - 6 count"
+    sku:"HRO-SPT-02"
+    currency:"USD"
+    category:"Spot Treatments"
+    }
+    ]
+    is_logged_in:false
+    category:"EnhancedEcommerce"
+    }
+    createdAt:"2021-04-01 16:06:05 +00:00"
+    eventUpdatedAt:"2021-04-01 16:06:08 +00:00"
+    itblInternal:{
+    documentCreatedAt:"2021-04-01 16:06:08 +00:00"
+    documentUpdatedAt:"2021-04-01 16:06:08 +00:00"
+    }
+    combinedRowText:"courtneymichelle91@gmail.com cart viewed"
+    }

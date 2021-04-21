@@ -4,9 +4,9 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>heyday</title>
-      <link rel="stylesheet" href="./css/style.css" type="text/css" media="all" />
-      <link rel="stylesheet" href="./css/reset.css" type="text/css" media="all" />
-      <link rel="stylesheet" href="./css/heyday.css" type="text/css" media="all" />
+      <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+      <link rel="stylesheet" href="../css/reset.css" type="text/css" media="all" />
+      <link rel="stylesheet" href="../css/heyday.css" type="text/css" media="all" />
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
       <style>
          body, html {
@@ -21,10 +21,10 @@
          .col > .card {border-radius: 25px;}
         .card:hover {box-shadow: 5px 5px 15px;}
          .card-body {
-            background-color: #333F48;color: #ffffff;border-radius:  0 0 25px 25px; 
+            background-color: #333F48;color: #ffffff;border-radius:  25px 25px; 
          }
          .kinetic {
-            background-color: #DC7D7C;color: #ffffff;border-radius:  0 0 25px 25px; 
+            background-color: #DC7D7C;color: #ffffff;border-radius:  25px 25px; 
          }
          iframe {border-radius: 25px 25px 0px 0px;height: 633px;}
          .btn-primary {background-color: #DC7D7C;border: 1px solid #DC7D7C;}
@@ -35,172 +35,45 @@
    <body>
       <div class="container dark" >
          <div class="row">
-            <div class="col" >
-               <h1 class="objektivXbold bold center f50"><img src="images/heyday-logo.png" width="150"></h1>
-               <p class="objektivXbold f18 h24 bold">Project assets:
-               <ul>
-                  <li>4 HTML assets</li>
-                  <li>CSS files</li>
-                  <ul>
-                     <li>heyday styles</li>
-                     <ul>
-                        <li>Colors, fonts, sizing and padding elements from style guide</li>
-                     </ul>
-                     <li>reset</li>
-                     <ul>
-                        <li>Commmon bug fixes for various email clients such as Outlook, Gmail and Android devices</li>
-                     </ul>
-                  </ul>
-                  <li>Snippets:</li>
-                  <ul>
-                     <li>Logo</li>
-                     <li>Hero component</li>
-                     <li>Abandon Cart</li>
-                     <li>Belt</li>
-                     <li>Bestsellers</li>
-                     <li>Footer</li>
-                  </ul>
-               </ul>
+            <div class="col" ><br>
+               <h1 class="objektivXbold bold center f50">
+                  <img src="http://seanmun.com/heyday/images/heyday-logo.png" width="150">
+               </h1>
+               <p class="objektivXbold f50 h60 bold center">Iterable Templates
+            
                </p>
-               <p class="objektivXbold f18 h24 bold">Templates: (preview @ iPhone X size (375 x 633)</p>
+               <p class="objektivXbold f18 h24 bold center">Templates: (preview @ iPhone X size (375 x 633)</p>
             </div>
          </div>
       </div>
-      <div class="container-fluid">
+      <div class="container">
          <div class="row">
             <div class="col d-flex justify-content-center" >
                <div class="card" style="width: 375px;">
-                  <iframe src="./e1.html" frameborder="0" style="border:none;"></iframe>
                   <div class="card-body">
                      <h5 class="card-title">Email 1</h5>
                      <p class="card-text">Abandon cart #1.</p>
-                     <a href="./e1.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                     <a href="emails/abandonCart/index.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
                   </div>
                </div>
             </div>
             <div class="col d-flex justify-content-center">
                <div class="card" style="width: 375px;">
-                  <iframe src="./e2.html" frameborder="0" style="border:none;"></iframe>
                   <div class="card-body">
                      <h5 class="card-title">Email 2</h5>
                      <p class="card-text">Abandon cart #2, time is running out. </p>
-                     <a href="./e2.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
+                     <a href="emails/abandonPDP/index.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
                   </div>
                </div>
             </div>
-            <div class="col d-flex justify-content-center">
-               <div class="card" style="width: 375px;">
-                  <iframe src="./e3.html" frameborder="0" style="border:none;"></iframe>
-                  <div class="card-body">
-                     <h5 class="card-title">Email 3</h5>
-                     <p class="card-text">Abandon cart #2, time is running out. </p>
-                     <a href="./e3.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
-                  </div>
-               </div>
-            </div>
+            
             
          </div>
       </div>
  
-      <div class="container-fluid">
-         <div class="row">
-            <div class="col d-flex justify-content-center">
-               <div class="card" style="width: 375px;">
-                  <iframe src="./e1v2.html" frameborder="0" style="border:none;"></iframe>
-                  <div class="card-body">
-                     <h5 class="card-title">Email 1 Resend</h5>
-                     <p class="card-text">Abandon cart #3, last chance + Bestsellers. </p>
-                     <a href="./e1v2.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
-                  </div>
-               </div>
-            </div>
-            <div class="col d-flex justify-content-center">
-               <div class="card" style="width: 375px;">
-                  <iframe src="./e2v2.html" frameborder="0" style="border:none;"></iframe>
-                  <div class="card-body">
-                     <h5 class="card-title">Email 2 Resend</h5>
-                     <p class="card-text">Abandon cart, final offer.</p>
-                     <a href="./e2v2.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
-                  </div>
-               </div>
-            </div>
-            <div class="col d-flex justify-content-center">
-               <div class="card" style="width: 375px;">
-                  <iframe src="./e3v2.html" frameborder="0" style="border:none;"></iframe>
-                  <div class="card-body">
-                     <h5 class="card-title">Email 3 Resend</h5>
-                     <p class="card-text">Abandon cart, final offer.</p>
-                     <a href="./e3v2.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+     
 
-      <div class="container-fluid hide">
-         <div class="row">
-
-            <div class="col d-flex justify-content-center">
-               <div class="card" style="width: 375px;">
-                  <iframe src="./e7.html" frameborder="0" style="border:none;"></iframe>
-                  <div class="card-body">
-                     <h5 class="card-title">07 Trading</h5>
-                     <p class="card-text">Dynamic email using "Exprerian" score that will dynamically pull in for each users on scall of 1-10. Note: the dynamic image includes the Experian logo. </p>
-                     <a href="./e7.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
-                  </div>
-               </div>
-            </div>
-            <div class="col d-flex justify-content-center">
-               <div class="card" style="width: 375px;">
-                  <iframe src="./e8.html" frameborder="0" style="border:none;"></iframe>
-                  <div class="card-body">
-                     <h5 class="card-title">08 Comparison</h5>
-                     <p class="card-text">Dynamically generated email based on user "favourites". This email will display information of their top 3 cars. The images are using background images, with the star overlapping uzing positioning and z-index. This method is not fully supported. When not supported the star will be displayed in the lower right corner, instead of overlapping. Included VML code to ensure backgrounds show on Outlook.</p>
-                     <a href="./e8.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
-                  </div>
-               </div>
-            </div>
-               <div class="col d-flex justify-content-center">
-                  <div class="card" style="width: 375px;">
-                     <iframe src="./e9.html" frameborder="0" style="border:none;"></iframe>
-                     <div class="card-body">
-                        <h5 class="card-title">09 Content</h5>
-                        <p class="card-text">Blog articles that can be dynamically added to the email. Created a snipped for the "Content" module that includes multiple fields for article details. Each module will use the same styles. </p>
-                        <a href="./e9.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
-                     </div>
-                  </div>
-               </div>
-
-         </div>
-      </div>
-
-      <div class="container-fluid hide">
-         <div class="row">
-
-            <div class="col d-flex justify-content-center">
-               <div class="card" style="width: 375px;">
-                  <iframe src="./e10.html" frameborder="0" style="border:none;"></iframe>
-                  <div class="card-body">
-                     <h5 class="card-title">10 Video</h5>
-                     <p class="card-text">Abandon cart #1.</p>
-                     <a href="./e10.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
-                  </div>
-               </div>
-            </div>
-            <div class="col d-flex justify-content-center">
-               <div class="card" style="width: 375px;">
-                  <iframe src="./e11.html" frameborder="0" style="border:none;"></iframe>
-                  <div class="card-body kinetic">
-                     <h5 class="card-title">ALT Survey</h5>
-                     <p class="card-text">Abandon cart #1.</p>
-                     <a href="./e11.html" class="btn btn-primary" target="_blank">Full view &raquo;</a>
-                  </div>
-               </div>
-            </div>
-            
-
-         </div>
-      </div>
+     
 
       <div class="container">
           <div class="row">
